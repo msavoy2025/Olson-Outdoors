@@ -1,0 +1,335 @@
+.serviceRequest {
+  margin-top:75px;
+  margin-bottom:75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.serviceRequest__img {
+  width:43%;
+  padding-right: 2%;
+  position: sticky;
+  top:0;
+  height: 100%;
+}
+
+.serviceRequest__img img {
+  width:100%;
+}
+
+.serviceRequest__form {
+  width: 51%;
+  padding-left:4%;
+}
+
+.serviceRequest__title {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #000000;
+}
+
+.contactInfo {
+  margin-top:75px;
+  border:1px solid #252525;
+}
+
+.contactInfo__phone {
+  border-bottom:1px solid #252525;
+  padding:25px;
+}
+
+.contactInfo__phone p {
+  padding-bottom:25px;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.contactInfo__phone p:nth-child(2) {
+  padding-bottom:0;
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+}
+
+.contactInfo__address {
+  padding:25px;
+}
+
+.contactInfo__address p {
+  padding-bottom:25px;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.contactInfo__address p:nth-child(2) {
+  padding-bottom:0;
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+}
+
+/***************
+     FORM
+***************/
+
+.formFillout {
+  margin-top:75px;
+  border:1px solid #252525;
+}
+
+.formFillout__title {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  border-bottom:1px solid #252525;
+  padding:2%;
+}
+
+.formText {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal !important;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  padding:2%;
+}
+
+.gform_wrapper label.gfield_label, .gform_wrapper legend.gfield_label {
+    font-weight: normal !important;
+}
+
+input {
+  background: none;
+  border:none;
+  opacity:0.2;
+  padding:0;
+}
+
+.gform_wrapper {
+  margin-top:0 !important;
+}
+
+body .gform_wrapper ul li.gfield {
+  margin-top: 0 !important;
+  padding-top: 25px !important;
+  padding-left:25px !important;
+}
+
+input {
+  padding-left:0 !important;
+  font-family: 'schibkL' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px !important;
+  line-height: 23px;
+  color: #252525;
+  opacity: 1;
+}
+
+input::placeholder {
+  padding-left:0 !important;
+  font-family: 'schibkL' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px !important;
+  line-height: 23px;
+  color: #252525;
+  opacity:0.2;
+}
+
+.gf_right_half {
+    border-right: none;
+    border-left:1px solid #252525;
+}
+
+.topBorder {
+    border-top: 1px solid #252525;
+}
+
+textarea {
+    border: none;
+    background: none;
+    opacity: 1;
+    padding-left:0 !important;
+    font-family: 'schibkL' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 23px;
+}
+
+textarea::placeholder {
+    font-family: 'schibkL' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px !important;
+    line-height: 23px;
+    border: none;
+    background: none;
+    opacity: 0.2;
+    padding-left:0 !important;
+}
+
+.gform_wrapper .gform_footer {
+    width: 450px !important;
+    margin: auto !important;
+    padding-bottom:50px !important;
+    padding-top:90px !important;
+}
+
+.gform_wrapper .gform_footer input[type=submit] {
+  background: #44688B;
+  height: 90px;
+  width:450px !important;
+  text-align: center !important;
+  color:#ECDCCC;
+  opacity: 1;
+  font-family: 'FuturaPTBold' !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px !important;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ECDCCC;
+}
+
+div#gform_confirmation_message_1 {
+    padding: 2% !important;
+    font-family: 'schibkL' !important;
+    font-size: 18px !important;
+    line-height:23px !important;
+}
+
+@media screen and (max-width:1279px) {
+  .serviceRequest__img {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .serviceRequest__img {
+    display: none;
+  }
+
+  .serviceRequest__form {
+    width:100%;
+    padding:0;
+  }
+
+  .gform_wrapper .gform_footer {
+      width: 275px !important;
+      margin: auto !important;
+  }
+
+  .gform_wrapper .gform_footer input[type=submit] {
+    background: #44688B;
+    height: 90px;
+    width:275px !important;
+    text-align: center;
+    color:#ECDCCC;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .gf_right_half {
+      border-right: none;
+      border-left:none;
+  }
+
+  li#field_1_6 {
+    border-top: 1px solid#252525;
+  }
+}
+
+
+/* Landscape Inquiry Form */
+
+.landscape_inquiry_title {
+  margin-top: 75px
+}
+
+.landscape_inquiry_desc {
+  font-family: 'schibkL';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #252525;
+    padding-top: 20px;
+    width: 75%;
+}
+
+#gform_fields_4 .gfield-choice-input {
+  width: 30px;
+  height: 30px;
+}
+
+.gfield_checkbox label {
+  font-family: 'schibkL' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  color: #252525;
+  opacity: 1;
+  margin-top: 10px !important;
+}
+
+#field_4_12 {
+  padding-bottom: 25px;
+}
+
+#input_4_12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#input_4_12 li {
+  width: 50%;
+}
+
+#field_4_9 {
+  border-bottom: 1px solid #252525;
+}
+
+@media screen and (max-width:767px) {
+  #input_4_12 {
+    display: block;
+  }
+
+  #input_4_12 li {
+    width: auto;
+  }
+
+  .landscape_inquiry_desc {
+    width: 100%;
+  }
+
+  #field_4_5 {
+    border-bottom: 1px solid #252525;
+  }
+}

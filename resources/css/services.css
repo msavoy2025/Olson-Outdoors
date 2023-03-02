@@ -1,0 +1,1301 @@
+/* Services Page CSS */
+
+/*
+
+1. Documentation section
+2. Work Styles section
+3. Seasonal section
+4. Irrigation section
+5. servicesCTA section
+
+*/
+
+/*************************
+  Documentation Section
+*************************/
+
+.subHeading__subTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #252525;
+  width:50%;
+  padding-top:75px;
+}
+
+.subHeading__subText {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+  width:30%;
+  padding-top:15px;
+  padding-bottom: 75px;
+}
+
+.services__documentation {
+  margin-bottom:75px;
+  border: 1px solid #252525;
+}
+
+.headingText {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.documentation__heading {
+  display: flex;
+  justify-content: space-between;
+  padding:1%;
+}
+
+.documentation__steps {
+  display: flex;
+  height:230px;
+}
+
+.documentation__title_number {
+  display: flex;
+  width:42%;
+}
+
+.documentation__title {
+  border-left: 1px solid #252525;
+  border-top:1px solid #252525;
+  padding: 2% 5% 2% 5%;
+  width:58%;
+  position: relative;
+}
+
+.documentation__number {
+  border-top:1px solid #252525;
+  padding: 2% 5% 2% 5%;
+  width: 28%;
+  position: relative;
+}
+
+.number {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 144px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #252525;
+  position: absolute;
+  bottom:13px;
+}
+
+.title {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-transform: uppercase;
+  color: #252525;
+  position: absolute;
+  bottom:20px;
+}
+
+.documentation__description_checkOff {
+  display: flex;
+  width:58%;
+}
+
+.documentation__description {
+  border-left: 1px solid #252525;
+  border-top:1px solid #252525;
+  padding: 2% 5% 2% 5%;
+  width:65%;
+  position: relative;
+}
+
+.description {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: flex-end;
+  color: #252525;
+  position: absolute;
+  bottom:20px;
+  width:88%;
+}
+
+.documentation__checkOff {
+  border-left: 1px solid #252525;
+  border-top: 1px solid #252525;
+  padding: 2% 5% 2% 5%;
+  width:25%;
+  position: relative;
+}
+
+.checkOff {
+  position: absolute;
+  bottom:20px;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.checkOff__complete {
+  display: flex;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.page-id-12 input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.checkOff__complete p {
+  margin-left:10px;
+}
+
+.checkoff__date {
+  width: 100%;
+  border-bottom: 1px solid #252525;
+  padding-bottom: 5px;
+}
+
+.date__title {
+  padding-top:5px;
+}
+
+.documentation__footing {
+  display: flex;
+  justify-content: space-between;
+  border-top:1px solid #252525;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  padding:2%;
+}
+
+.documentation__footing__left {
+  display: flex;
+  align-items: center;
+}
+
+.documentation__footing__right {
+  display: flex;
+  margin-top:3px;
+}
+
+.footing__leftServices {
+  display: flex;
+  align-items: center;
+}
+
+.footing__leftServices span {display: none;}
+
+.footing__rightImage img {
+    position: absolute;
+    top: -27px;
+}
+.footing__rightImage {
+    border-bottom: 1px solid #252525;
+    position: relative;
+    width: 375px;
+}
+
+.footing__leftServices img {
+  padding-left:5px;
+  padding-right:5px;
+}
+
+
+.footing__leftImages {
+  display: flex;
+  align-items: center;
+}
+
+.footing__leftImages img {
+  padding-left:5px;
+  padding-right:5px;
+}
+
+@media screen and (min-width:1440px) {
+  .page-id-12 .heading__textOverlay__subtitle {
+    width:73%;
+  }
+}
+
+@media screen and (max-width:1279px) {
+  .title {
+    font-size: 60px;
+    line-height: 62px;
+  }
+}
+
+@media screen and (max-width:1025px) {
+
+ .subHeading__subTitle {
+    width: 60%;
+  }
+
+  .subHeading__subText {
+    width:50%;
+  }
+
+  .footing__rightImage {
+      width: 250px;
+  }
+}
+
+
+@media screen and (max-width:769px) {
+  .documentation__steps {
+    display: block;
+    height:auto;
+  }
+
+  .documentation__title_number {
+    height: 230px;
+    width:100%;
+  }
+
+  .documentation__description_checkOff {
+    height: 230px;
+    width:100%;
+  }
+
+  .documentation__description {
+    width:100%;
+    border-left:none;
+  }
+
+  .documentation__checkOff {display:none;}
+
+  .title {
+      font-size: 84px;
+      line-height: 86px;
+  }
+
+  .subHeading__subTitle {
+     width: 80%;
+   }
+
+   .subHeading__subText {
+     width:70%;
+   }
+
+   .documentation__footing {
+     display: block;
+     padding:0;
+   }
+
+   .documentation__footing__left {
+    display: flex;
+    padding: 2% 5% 2% 5%;
+    border-bottom:1px solid #252525;
+  }
+
+  .documentation__footing__right {
+    padding: 2% 5% 2% 5%;
+  }
+
+
+}
+
+@media screen and (max-width:450px) {
+  .title {
+    font-size: 52px;
+    line-height: 55px;
+  }
+
+  .olsonDocHeading {display: none;}
+
+  .documentation__heading {
+    padding: 4%;
+    width: 91.75%;
+  }
+
+  .subHeading__subTitle {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .subHeading__subText {
+    font-size: 16px;
+    line-height: 23px;
+    width:75%;
+    padding-bottom:50px;
+  }
+
+  .footing__rightImage img {
+    position: absolute;
+    top: -7px;
+    width: 100%;
+  }
+
+  .footing__leftServices img {
+    display: none;
+  }
+
+  .footing__leftServices {
+    margin-top:5px;
+  }
+
+  .footing__leftServices span {display: block;}
+
+  .footing__leftImages {
+    display: block;
+    margin-left:60px;
+  }
+
+  .documentation__footing__left {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .subHeading__subText {
+    width:90%;
+  }
+
+  .subHeading__subTitle {
+    width:100%;
+    font-size: 51px;
+    line-height: 55px;
+  }
+
+  .footing__rightImage img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+/**********************
+  Work Styles Section
+**********************/
+
+.workStylesTitle {
+  background-size: 120%;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: -5%;
+  margin-bottom: -5%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.workStylesTitle2 {
+  background-size: 120%;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-top: -5%;
+  margin-bottom: 75px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.workStylesTitle:nth-child(2) {
+  margin-bottom:75px;
+}
+
+.workStyles__columns {
+  display: flex;
+  padding-bottom:75px;
+}
+
+.workStyles__column1 {
+  align-self: flex-end;
+  width: 31.3333%;
+  margin-right: 2%;
+}
+
+.workStyles__column1 div {
+  width:100%;
+}
+
+.workStyles__imageBox {
+  height:500px;
+  margin-bottom:6%;
+  background-size: cover;
+}
+
+.workStyles__customWork {
+  height:500px;
+  background: #252525;
+  position: relative;
+}
+
+.customWork__pictureText {
+  text-align: center;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  text-align: center;
+  color: #ECDCCC;
+  width: 200px;
+  margin: auto;
+  padding-top:75px;
+}
+
+.customButton {
+  width:90%;
+  margin:5%;
+  position: absolute;
+  bottom:20px;
+}
+
+.getStartedLine {
+    font-family: 'Chainprinter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 20px;
+    text-align: center;
+    color: #ECDCCC;
+    display: flex;
+    justify-content: space-between;
+    width: 90% !important;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+}
+
+.noMargin_bottom {
+  margin-bottom:0;
+}
+
+.column1Text {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-align: center;
+  color: #252525;
+  margin-top:100px;
+}
+
+.workStyles__column2 {
+  align-self: flex-end;
+  width: 31.3333%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.workStyles__column2 div {
+  width:100%;
+}
+
+.column2Text {
+  height:175px;
+}
+
+.column2Text__title {
+  font-family: 'FuturaPTbold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.column2Text__text {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.workStyles__column3 {
+  align-self: flex-end;
+  width: 31.333%;
+  margin-left: 2%;
+}
+
+.workStyles__column3 div {
+  width:100%;
+}
+
+.workStyles__columnTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-transform: uppercase;
+  color: #ECDCCC;
+  padding:4%;
+}
+
+.workStyles__listItems {
+  padding:0 4% 4% 4%;
+}
+
+.workStyles__listItem {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ECDCCC;
+}
+
+.dragRight {
+  display: none;
+  text-align: right;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.dragRight img {
+  margin-left:10px;
+}
+
+.mobileContactButton {
+    width: 275px;
+    margin: auto;
+    margin-bottom: 75px;
+    display: none;
+}
+
+.contactButton2 {
+  width: 275px;
+}
+
+@media screen and (max-width:1440px) {
+.page-id-12 .craftmanshipText {
+  font-size:9vw;
+  line-height: 9vw;
+}
+
+.column1Text {
+  font-size: 5vw;
+  line-height: 5vw;
+}
+}
+
+@media screen and (max-width:1281px) {
+  .customButton {
+      bottom: 40px;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .column2Text {
+      height: 130px;
+  }
+
+  .customWork__pictureText {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width:769px) {
+
+.mobileContactButton {display: block;}
+
+.dragRight {
+  display: block;
+}
+
+.page-id-12 .craftmanshipText {
+  font-size:16vw;
+  line-height: 16vw;
+}
+
+.workStylesTitle {
+  background-size: 215%;
+}
+
+.workStylesTitle2 {
+  background-size: 252%;
+}
+
+.workStylesTitle2black {
+  font-size:15vw !important;
+  line-height: 15vw !important;
+}
+
+.workStyles__columns {
+  overflow-x: scroll;
+}
+
+.column1Text {display: none;}
+.column2Text {display:none;}
+
+.workStyles__column1 {
+  display: flex;
+  width:auto;
+  margin-right:0;
+
+}
+
+.workStyles__column2 {
+  display: flex;
+  width:auto;
+  margin-left:4.5%;
+  margin-right:0;
+}
+
+.workStyles__column3 {
+  display: flex;
+  width:auto;
+  margin-left:4.5%;
+}
+
+.workStyles__column1 div {
+  width:400px;
+  margin:1%;
+}
+
+.workStyles__column2 div {
+  width:400px;
+  margin:1%;
+}
+
+.workStyles__column3 div {
+  width:400px;
+  margin:1%;
+}
+
+.workStyles__imageBox {
+  margin-bottom:0;
+}
+}
+
+@media screen and (max-width:450px) {
+  .workStyles__column2 {
+    margin-left: 8.5%;
+  }
+
+  .workStyles__column3 {
+    margin-left: 8.5%;
+  }
+}
+
+/*************************
+    SEASONAL SECTION
+*************************/
+
+.section__seasonal {
+  display: flex;
+  position: relative;
+  padding-bottom: 75px;
+  border-bottom: 1px solid #252525;
+  margin-bottom: 75px;
+}
+
+.seasonalScroller {
+  width:15%;
+  position: sticky;
+  top:15%;
+  height:600px;
+}
+
+.seasons__precip__temp {
+  margin-top:50px;
+}
+
+.precip {
+  display: flex;
+  margin-bottom:25px;
+}
+
+.precipImg {
+  padding-right:15px;
+}
+
+.tempImg {
+  margin-left:-7px;
+}
+
+.precipImg img {
+  height:100%;
+}
+
+.precipTextNum {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-align: center;
+  color: #252525;
+  align-self: flex-start;
+  width:35px;
+}
+
+.precipText {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #252525
+}
+
+.precipTextNum2 {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-align: center;
+  color: #252525;
+  align-self: flex-start;
+  width:35px;
+}
+
+.precipText2 {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: #252525
+}
+
+.seasons {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  padding-bottom:25px;
+  text-decoration: none;
+  color:black;
+  display: flex;
+}
+
+.seasonsImg {
+  width:33px;
+}
+
+.seasonsImg img {
+  width:100%;
+}
+
+.seasons span {
+    align-self: center;
+    padding-left:15px;
+}
+
+.seasonalContent {
+  width:85%;
+}
+
+.seasonalContentBlock img {
+  width:100%;
+}
+
+.seasonalInfo__columns {
+  display: flex;
+}
+
+.seasonalInfo__column1, .seasonalInfo__column2, .seasonalInfo__column3 {
+  padding:1% 2%;
+}
+
+.seasonalInfo__column1 {
+  border-right:1px solid #252525;
+  width:33.3333%;
+  position:relative;
+}
+
+.seasonalInfo__column2 {
+  border-right:1px solid #252525;
+  width:43.3333%;
+}
+
+.seasonalInfo__column3 {
+  width:23.3333%;
+}
+
+.seasonalInfo {
+  border:1px solid #252525;
+  margin-top:25px;
+  margin-bottom:35px;
+}
+
+.seasonalInfo__title {
+  border-bottom:1px solid #252525;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  padding:1% 2% 1% 2%;
+}
+
+.seasonLine {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.seasonalInfo__column1__dates {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  padding-top:10px;
+}
+
+.seasonalInfo__column1__bottom {
+  border-top:1px solid #252525;
+}
+
+.seasonalInfo__column1__title {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 144px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.seasonalInfo__columnsTitle {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+}
+
+.seasonalInfo__column2 {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+  position: relative;
+}
+
+.seasonalInfo__column2 p {
+  position: absolute;
+  bottom:10px;
+  width:90%;
+}
+
+.seasonalInfo__column3 {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+  position: relative;
+}
+
+.seasonalInfo__column3 ul {
+  position: absolute;
+  bottom:10px;
+  list-style: none;
+}
+
+.overview__services__title {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #252525;
+  padding-bottom:35px;
+}
+
+.seasonalOverview {
+  display: flex;
+  position: relative;
+}
+
+.seasonalOverview__text {
+  border-left:1px solid #252525;
+  width:405px;
+  padding: 2%;
+  margin-left: 3%;
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+}
+
+.seasonalSideText {
+  position: absolute;
+  top: 70px;
+  left: -29px;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  transform: rotate(-90deg);
+}
+
+.seasonalSideText__services {
+  position: absolute;
+  top: 55px;
+  left: -29px;
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #252525;
+  transform: rotate(-90deg);
+}
+
+.seasonalServices {
+  display: flex;
+  position: relative;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.seasonalServices__textSections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-left: 1px solid #252525;
+  margin-left: 3%;
+}
+
+.seasonalServices__textSection {
+    width: 46%;
+    margin: 2%;
+}
+
+.seasonalServices__title {
+  font-family: 'FuturaPTbold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #252525;
+  padding-bottom:5px;
+}
+
+.seasonalServices__text {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #252525;
+}
+
+@media screen and (max-width:1279px) {
+  .seasonalInfo__column1__title {
+      font-size: 128px;
+      line-height: 128px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+
+  .seasonalInfo__columns {
+    display: block;
+  }
+
+  .seasonalScroller {
+    display: none;
+  }
+
+  .seasonalContent {
+    width:100%;
+  }
+
+  .seasonalInfo__column1 {
+    display: flex;
+    width:100%;
+    padding:0;
+    border-right: none;
+  }
+
+  .seasonalInfo__column2 {
+    width:96%;
+    border-right:none;
+    border-top:1px solid #252525;
+  }
+
+  .seasonalInfo__column2 p {
+    position: inherit;
+    padding-top:25px;
+  }
+
+  .seasonalInfo__column3 {
+    display: none;
+  }
+
+  .seasonalInfo__column1__bottom {
+    border-top:none;
+    border-left:1px solid #252525;
+    width:50%;
+  }
+
+  .seasonalInfo__column1__top {
+    width:50%;
+    padding:1% 2%;
+  }
+
+  .seasonalInfo__column1__dates {
+    width:50%;
+    margin:auto;
+    margin-top:9%;
+  }
+
+  .seasonalInfo__column1__dates p {
+    padding:5%;
+  }
+
+  .seasonalInfo {
+    margin-top:-4px;
+  }
+
+  .seasonalInfo__columnsTitle {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .seasonalInfo__column1__title {
+    font-size: 52px;
+    line-height: 55px;
+  }
+
+
+  .seasonalInfo__title {
+    display: block;
+  }
+
+  .seasonalInfo__title p {
+    text-align: center;
+  }
+  .seasonalInfo__title p:nth-child(2) {
+    display: none;
+  }
+
+  .seasonalInfo__column1__dates {
+    width:90%;
+    margin-top:0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .seasonalInfo__column1__dates p {
+    padding: 0;
+  }
+
+  .seasonalServices {display:none;}
+
+  .overview__services__title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .seasonalOverview__text {
+    border-left: 1px solid #252525;
+    width: 315px;
+    padding: 2%;
+    margin-left: 10%;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: 'schibkL';
+    font-style: normal;
+    font-weight: normal;
+    color: #252525;
+    margin-bottom:75px;
+  }
+}
+
+/***************************
+    IRRIGATION SECTION
+***************************/
+
+.seasonalIrrigation {
+  border-bottom:1px solid #252525;
+  padding-bottom:75px;
+}
+
+.irrigationTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 144px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #252525;
+  margin-bottom:35px;
+}
+
+.irrigationSubtitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #252525;
+  margin-bottom:35px;
+}
+
+.irrigationTitle span {
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.page-id-12 .blogPosts__servicesCTA {
+  margin-top:75px;
+}
+
+.seasonalWorkText {
+    text-align: center;
+    font-family: 'schibkL';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #252525;
+    max-width: 408px;
+    min-width: 250px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.seasonalWorkText:nth-child(2) {
+  padding-bottom:50px;
+}
+
+.page-id-12 .workTexts {
+  padding-top:75px;
+}
+
+.seasonLine div:nth-child(1) {
+    margin-top: 5px;
+}
+
+.CTA__button {
+  width:400px;
+}
+
+.servicesCTA__button {
+  width:400px;
+}
+
+@media screen and (max-width:1440px) {
+  .irrigationTitle {
+    font-size:12vw;
+    line-height:12vw;
+  }
+
+  .irrigationSubtitle {
+    font-size:6vw;
+    line-height: 6vw;
+  }
+}
+
+@media screen and (max-width:1025px) {
+  .blog .services_CTAbg {
+      background-size: 215%;
+      width: 100%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      margin-top: -5%;
+      margin-bottom: -5%;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .seasonalIrrigation .seasonalServices {
+      display: none;
+  }
+
+  .irrigationTitle {
+    text-align: center;
+    width: 68%;
+    margin: auto;
+    margin-bottom:35px;
+  }
+
+  .irrigationSubtitle {
+    text-align: center;
+    width: 77%;
+    margin: auto;
+    margin-bottom:35px;
+    font-size:10vw;
+    line-height:10vw;
+  }
+
+  .seasonalIrrigation {
+    padding-bottom:0;
+  }
+}
+
+@media screen and (max-width:450px) {
+    .irrigationTitle {
+      font-size: 16vw;
+      line-height: 16vw;
+      width:70%;
+    }
+
+    .CTA__button {
+      width:275px;
+    }
+
+    .servicesCTA__button {
+      width:275px;
+    }
+}

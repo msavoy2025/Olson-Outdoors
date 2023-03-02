@@ -1,0 +1,268 @@
+.invoicesubTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #252525;
+  margin-top: 75px;
+  margin-bottom:75px;
+}
+
+.invoice__section {
+  display: flex;
+  margin-bottom: 75px;
+}
+
+.invoiceForm {
+  width:51%;
+  margin-right: 4%;
+  border:1px solid #252525;
+}
+
+.invoice__review {
+  width: 43%;
+  margin-left: 2%;
+}
+
+/*******************
+    form section
+*******************/
+
+
+.page-id-14 input#input_2_10 {
+    font-family: 'Roswell' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 144px !important;
+    line-height: 144px !important;
+    letter-spacing: 0.02em !important;
+    text-transform: uppercase;
+    color: #252525;
+    opacity: 1;
+}
+
+.page-id-14 input#input_2_10::placeholder {
+    font-family: 'Roswell' !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 144px !important;
+    line-height: 144px !important;
+    letter-spacing: 0.02em !important;
+    text-transform: uppercase;
+    color: #252525;
+    opacity: 0.15;
+}
+
+.page-id-14 .gf_left_half {
+    border-top: 1px solid #252525;
+}
+
+.page-id-14 .gf_right_half {
+    border-top: 1px solid #252525;
+}
+
+#field_2_7 {
+  display: none;
+}
+
+#field_2_6 {
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  padding-bottom: 24px;
+}
+
+input#sq-input--cardNumber {
+    background: none;
+}
+
+.SqPaymentForm {
+    background-color: #ECDCCC !important;
+    border-radius: 2px;
+    border: 1px solid #252525 !important;
+    box-shadow: none;
+    color: #252525 !important;
+}
+
+#gform_confirmation_message_2 {
+    padding: 2% !important;
+    font-family: 'schibkL' !important;
+    font-size: 18px !important;
+    line-height:23px !important;
+}
+
+input[type=checkbox] {
+         position: relative;
+	       cursor: pointer;
+    }
+    input[type=checkbox]:before {
+         content: "";
+         display: block;
+         position: absolute;
+         width: 30px;
+         height: 30px;
+         top: 0;
+         left: 0;
+         background-color: #ECDCCC;
+         border:1px solid #252525;
+}
+    input[type=checkbox]:checked:after {
+         content: "";
+         display: block;
+         width: 10px;
+         height: 22px;
+         border: solid #425F35;
+         border-width: 0 2px 2px 0;
+         -webkit-transform: rotate(45deg);
+         -ms-transform: rotate(45deg);
+         transform: rotate(45deg);
+         position: absolute;
+         top: 2px;
+         left: 10px;
+}
+
+input#choice_2_11_1 {
+    width: 30px !important;
+    height: 30px !important;
+    border: 1px solid #252525;
+}
+
+label#label_2_11_1 {
+    vertical-align: sub;
+    font-weight: normal;
+}
+
+li#field_2_11 {
+    padding-top: 0 !important;
+}
+
+div#gfield_description_2_11 {
+    font-family: 'schibkL' !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 23px !important;
+    color: #252525 !important;
+    padding-right: 0;
+    padding-top: 0;
+    margin-left: 39px;
+    width:86%;
+}
+
+/*************************
+    review section
+*************************/
+
+.invoice__review__top {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.invoice__review__bottom {
+  padding-top:25px;
+  padding-bottom:75px;
+  background:#425F35;
+
+}
+
+.reviewImg {
+  width:108px;
+  padding-top:75px;
+  padding-bottom:75px;
+  margin:auto;
+}
+
+.reviewTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  text-align: center;
+  color: #ECDCCC;
+  padding-bottom:50px;
+}
+
+.reviewText {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #ECDCCC;
+  padding-bottom:150px;
+  width: 75%;
+  margin: auto;
+}
+
+.review__button {
+  width:320px;
+  margin:auto;
+}
+
+.sq-card-wrapper .sq-card-component {
+  background-color: #ECDCCC;
+}
+
+@media screen and (max-width:1023px) {
+  .invoice__section {
+    display: block;
+  }
+
+  .invoiceForm {
+    width:100%;
+    margin-right: 0;
+  }
+
+  .invoice__review {
+    margin-top:75px;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .invoicesubTitle {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .reviewTitle {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .reviewText {
+    font-size:16px;
+    line-height:23px;
+  }
+
+  .invoice__section {
+    margin-bottom:0;
+  }
+
+  .review__button {
+    width:275px;
+  }
+
+  .reviewButton {
+    width:275px;
+  }
+
+  .invoice__review {
+    width: 112%;
+    margin-left: -6%;
+  }
+
+  div#gfield_description_2_11 {
+      width:84%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  div#gfield_description_2_11 {
+      width:100%;
+      margin-left:0;
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+      "summer" : {
+        "temp" : "87",
+        "precip" : "1.84",
+        "image_temp" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/temp.svg",
+        "image_precip" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/Precipitation.svg"
+      },
+
+      "fall" : {
+        "temp" : "67",
+        "precip" : "1.03",
+        "image_temp" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/temp.svg",
+        "image_precip" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/Precipitation.svg"
+    },
+
+    "spring" : {
+      "temp" : "62",
+      "precip" : "1.84",
+      "image_temp" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/temp.svg",
+      "image_precip" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/Precipitation.svg"
+    },
+
+    "winter" : {
+      "temp" : "45",
+      "precip" : ".54",
+      "image_temp" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/temp.svg",
+      "image_precip" : "http://olson-landscaping.local/wp-content/themes/olson/resources/images/Precipitation.svg"
+    }
+  }
+]

@@ -1,0 +1,558 @@
+/*******************
+ Project navigation
+********************/
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 4px;
+    height:12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #252525;
+}
+
+.page-id-10 #nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0;
+    z-index: 9999;
+    height: 13vh;
+    margin-top: 2vh;
+}
+
+.projectNavBG_blue {
+    background: #44688B;
+    color: #ECDCCC;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width:200px;
+    z-index:999;
+}
+
+.projectNavBG_blue p {
+    position: absolute;
+    bottom: 100px;
+    left:-30px;
+    transform: rotate(90deg);
+    font-family: 'Chainprinter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 20px;
+    color: #ECDCCC;
+}
+
+.projectNavBG_green {
+    position: absolute;
+    height: 100vh;
+    width: 425px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 70px;
+    z-index:999;
+}
+
+.page-id-10 .greenWrap {
+  background: #ECDCCC;
+}
+
+.page-id-10 .navOption a {
+  color:#252525;
+}
+
+.currentProjectsText {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:9999;
+}
+
+input.getResults {
+  font-family: 'Chainprinter' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px !important;
+  line-height: 20px;
+  color: #ECDCCC;
+  opacity: 0.95;
+  width:100%;
+  height:100%;
+  text-align: left;
+  padding-left:135px !important;
+  padding-top:50px;
+  outline:none;
+}
+
+.currentProjectsTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 84px;
+  line-height: 86px;
+  color: #ECDCCC;
+  text-transform: uppercase;
+}
+
+.currentProjectsSubtitle {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #ECDCCC;
+  opacity: 0.95;
+  padding-bottom:10px;
+  margin-bottom:10px;
+  border-bottom:1px solid #ECDCCC;
+}
+
+.projectsWrap {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height:85vh;
+}
+
+.currentProjects {
+    margin-left: 5%;
+    padding-right:5px;
+    margin-top: 3vh;
+    position: absolute;
+    width: 300px;
+    overflow-y: scroll;
+    height: 80vh;
+    z-index: 9999;
+}
+
+.projectSearchWrap {
+  position: relative;
+  /*margin-left: 446px;*/
+  height:87vh;
+}
+
+.search-section {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 83vh;
+    display: flex;
+    margin-top: 35px;
+    margin-left:446px;
+}
+
+.currentProject {
+  display: flex;
+  align-items: baseline;
+  margin-bottom:10px;
+  padding-bottom:10px;
+  border-bottom:1px solid #ECDCCC;
+  position: relative;
+}
+
+.currentProjectsImage {
+    background-size: cover !important;
+    width: 125px;
+    height: 75px;
+    margin-right:10px;
+}
+
+.plus__check1, .plus__check2, .plus__check3, .plus__check4, .plus__check5, .plus__check6, .plus__check7, .plus__check8, .plus__check9, .plus__check10, .plus__check11, .plus__check12, .plus__check13, .plus__check14, .plus__check15, .plus__check16  {
+    width: 14px;
+    height: 14px;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    position: absolute;
+    right: 5px;
+    z-index:9
+}
+
+.bgSwap {
+   background-image: url('https://olsonoutdoors.com/wp-content/themes/olson/resources/images/checkMark.svg') !important;
+}
+
+/*.page-id-10 ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+/*}*/
+
+/*****************
+  search section
+*****************/
+
+.projectFeaturedImage {
+    width: 940px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    margin-right:10px;
+}
+
+.projectTitle {
+  font-family: 'Roswell';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 144px;
+  line-height: 144px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ECDCCC;
+  position: fixed;
+  bottom:20px;
+  left:475px;
+  z-index:9999;
+}
+
+.projectDescription {
+  width:600px;
+  margin-left:20px;
+  margin-right:20px;
+  position: relative;
+}
+
+.projectDescription__top {
+  border:1px solid #425F35;
+}
+
+.projectDescription__bottom {
+    font-family: 'FuturaPTbold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #252525;
+    position: absolute;
+    bottom: 130px;
+    transform: rotate(90deg);
+    z-index: 99;
+    left: -82px;
+}
+
+
+.projectDescription__title {
+  font-family: 'Chainprinter';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.5px;
+  line-height: 20px;
+  color: #425F35;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 3%;
+  border-bottom: 1px solid #425F35;
+}
+
+.projectDescription__title img {
+    width: 40px;
+}
+
+.projectDetails {
+  display: flex;
+  border-bottom: 1px solid #425F35;
+}
+
+.projectDetail:nth-child(4) {
+    border-right: none;
+}
+.projectDetail {
+    width: 23%;
+    padding: 2% 3%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-right: 1px solid #425F35;
+}
+
+.projectDetail__title {
+    font-family: 'Chainprinter' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px !important;
+    line-height: 20px !important;
+    color: #425F35;
+}
+
+.projectDetail__content {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #425F35;
+  padding-top: 25px;
+}
+
+.projectContent {
+  padding: 2% 3%;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.projectContent ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectDetailItem {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  width:50%;
+}
+
+.projectDetailItem p {
+  padding-top:10px;
+  padding-left:5px;
+}
+
+blockquote.wp-block-quote {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #425F35;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.projectContent p {
+  font-family: 'schibkL';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #425F35;
+}
+
+.projectEnd {
+    width: 200px;
+    position: relative;
+}
+
+.projectEnd p {
+    font-family: 'FuturaPTbold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projectMobileContent {display: none;}
+
+.mobileFooterOnly {display: none;}
+
+@media screen and (min-width: 1441px){
+.page-id-10 .pageWidth {
+    width: 90%;
+}
+}
+
+@media screen and (max-width:1281px) {
+  .projectFeaturedImage {
+      width: 795px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .projectContent ul {
+      display: block;
+  }
+
+  .projectDetailItem {
+    width:100%;
+  }
+}
+
+/**************************/
+
+@media screen and (max-width: 1279px) {
+
+  .mobileFooterOnly {display: block;}
+
+  .page-id-10 {
+    background: #425F35;
+  }
+
+  .page-id-10 .greenWrap {
+    background: #425F35;
+  }
+
+  .projectsWrap {
+    height:auto;
+    display: block;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+
+  .projectSearchWrap {
+    display: none;
+  }
+
+  .projectNavBG_blue {
+    display: none;
+  }
+
+  .projectNavBG_green {
+    display: none;
+  }
+
+  .page-id-10 #nav {
+    display: block;
+    padding-top:55px;
+  }
+
+  .page-id-10 .mobEXT {
+    display: block;
+    cursor: pointer;
+    background:#425F35;
+    z-index:9999;
+  }
+
+  .page-id-10 .close_button {
+    display: block;
+    width: 34px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .page-id-10 .mobEXT p {
+    text-align: center;
+    font-family: 'Chainprinter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ECDCCC;
+    padding:7px;
+  }
+
+  .page-id-10 .navOption {
+    text-align: center;
+    margin-right: 0;
+    font-family: 'Roswell';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0;
+  }
+
+  .page-id-10 .navOption a {
+    color: #ECDCCC;
+  }
+
+  .page-id-10 .navOptions {
+    display: block;
+    align-self: center;
+    position: fixed;
+    top: -560px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: 0.3s;
+    z-index:99999;
+    width: 100%;
+    background: #252525;
+  }
+
+  .page-id-10 .navOption:nth-child(1) {
+    margin-top: 70px;
+  }
+
+  .page-id-10 .navOption:nth-child(7) {
+    margin-bottom: 70px;
+  }
+
+  .currentProjects {
+    margin-left: 5%;
+    position: inherit;
+    width: 90%;
+    overflow-y: initial;
+    height: auto;
+    z-index: 9999;
+  }
+
+  .projectTitle {
+    position: static;
+  }
+
+  .projectFeaturedImage {
+    width: 100%;
+    height: 500px;
+    margin-bottom:10px;
+  }
+
+  .projectFeaturedImage:nth-last-child(1) {
+    margin-bottom:0;
+  }
+
+  .search-section {
+      overflow-x: auto;
+      overflow-y: auto;
+      height: auto;
+      max-height:0;
+      transition: 0.3s ease-in;
+      display: block;
+      margin-top: 0px;
+      background: #ECDCCC;
+      margin-left: 0;
+      margin-bottom:35px;
+  }
+
+  .openProject {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-height:30000px;
+  }
+
+  .projectMobileContent {
+    position:relative;
+  }
+
+  .projectDescription__bottom {display: none;}
+  .projectDescription__top {
+    width:100%;
+  }
+
+  .projectTitle {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    z-index: 999;
+  }
+
+  .projectDescription {
+    width: 95%;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+}
