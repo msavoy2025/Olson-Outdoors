@@ -2,7 +2,9 @@
 get_header();
 
 while (have_posts()) {
-  the_post();?>
+  the_post();
+//Testing Git Updates  
+?>
 
 <div class="section__heading">
   <div class="overlay1" style="background-image:url(<?php echo get_theme_file_uri('/resources/images/man-digging.png'); ?>);"></div>
