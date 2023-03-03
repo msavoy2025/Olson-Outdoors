@@ -983,3 +983,9 @@ input[type=checkbox]:checked:after {
   content:"Service Added";
   position:absolute;
 }
+
+@media screen and (max-width:1023px) {
+  #field_3_220 {
+    padding-top: 40px;
+  }
+}

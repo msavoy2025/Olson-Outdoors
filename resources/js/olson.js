@@ -253,7 +253,7 @@ $(window).on('scroll', function() {
 
 
     //page 1 label link
-    $(".gchoice_3_19_1 label").html('I have read and agree to the <a href="https://olsonoutdoors.com/wp-content/uploads/2021/03/OlsonOutdoorsTerms.pdf" name="terms" target="_blank">terms and conditions*</a>');
+  $(".gchoice_3_19_1 label").html('I have read and agree to the <a href="https://olsonoutdoors.com/wp-content/uploads/2023/03/Olson-Terms-and-Services-2023.docx.pdf" name="terms" target="_blank">terms and conditions*</a>');
 
 
     //page2 navigation on click and scroll effect
@@ -482,7 +482,7 @@ $(window).on('scroll', function() {
       });
 
       //aeration
-      var topofDiv2 = $("#form_item2").offset().top + 980;
+      var topofDiv2 = $("#form_item2").offset().top + 1110;
       var height2 = $("#form_item2").outerHeight();
 
       $(window).scroll(function(){
@@ -501,7 +501,7 @@ $(window).on('scroll', function() {
       });
 
       //fertilization
-      var topofDiv3 = $("#form_item3").offset().top + 2295;
+      var topofDiv3 = $("#form_item3").offset().top + 2420;
       var height3 = $("#form_item3").outerHeight();
 
       $(window).scroll(function(){
@@ -520,7 +520,7 @@ $(window).on('scroll', function() {
       });
 
       //Weed Control
-      var topofDiv4 = $("#form_item4").offset().top + 4415;
+      var topofDiv4 = $("#form_item4").offset().top + 4540;
       var height4 = $("#form_item4").outerHeight();
 
       $(window).scroll(function(){
@@ -539,7 +539,7 @@ $(window).on('scroll', function() {
       });
 
       //Drought Control
-      var topofDiv5 = $("#form_item5").offset().top + 5735;
+      var topofDiv5 = $("#form_item5").offset().top + 5860;
       var height5 = $("#form_item5").outerHeight();
 
       $(window).scroll(function(){
@@ -558,7 +558,7 @@ $(window).on('scroll', function() {
       });
 
       //Overseeding
-      var topofDiv6 = $("#form_item6").offset().top + 6550;
+      var topofDiv6 = $("#form_item6").offset().top + 6675;
       var height6 = $("#form_item6").outerHeight();
 
       $(window).scroll(function(){
@@ -577,7 +577,7 @@ $(window).on('scroll', function() {
       });
 
       //Fungicide
-      var topofDiv7 = $("#form_item7").offset().top + 7950;
+      var topofDiv7 = $("#form_item7").offset().top + 8080;
       var height7 = $("#form_item7").outerHeight();
 
       $(window).scroll(function(){
@@ -596,7 +596,7 @@ $(window).on('scroll', function() {
       });
 
       //Sprinkler
-      var topofDiv8 = $("#form_item8").offset().top + 8635;
+      var topofDiv8 = $("#form_item8").offset().top + 8760;
       var height8 = $("#form_item8").outerHeight();
 
       $(window).scroll(function(){
@@ -615,7 +615,7 @@ $(window).on('scroll', function() {
       });
 
       //YCU
-      var topofDiv9 = $("#form_item9").offset().top + 12425;
+      var topofDiv9 = $("#form_item9").offset().top + 12555;
       var height9 = $("#form_item9").outerHeight();
 
       $(window).scroll(function(){
@@ -634,7 +634,7 @@ $(window).on('scroll', function() {
       });
 
       //Power Raking
-      var topofDiv10 = $("#form_item10").offset().top + 15300;
+      var topofDiv10 = $("#form_item10").offset().top + 15425;
       var height10 = $("#form_item10").outerHeight();
 
       $(window).scroll(function(){
