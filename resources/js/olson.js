@@ -291,7 +291,7 @@ $(window).on('scroll', function() {
       });
 
       //aeration
-      var topofDiv2 = $("#form_item2").offset().top + 740;
+      var topofDiv2 = $("#form_item2").offset().top + 735;
       var height2 = $("#form_item2").outerHeight();
 
       $(window).scroll(function(){
@@ -310,7 +310,7 @@ $(window).on('scroll', function() {
       });
 
       //fertilization
-      var topofDiv3 = $("#form_item3").offset().top + 1955;
+      var topofDiv3 = $("#form_item3").offset().top + 1881;
       var height3 = $("#form_item3").outerHeight();
 
       $(window).scroll(function(){
@@ -329,7 +329,7 @@ $(window).on('scroll', function() {
       });
 
       //weed control
-      var topofDiv4 = $("#form_item4").offset().top + 3917;
+      var topofDiv4 = $("#form_item4").offset().top + 3700;
       var height4 = $("#form_item4").outerHeight();
 
       $(window).scroll(function(){
@@ -348,7 +348,7 @@ $(window).on('scroll', function() {
       });
 
       //drought control
-      var topofDiv5 = $("#form_item5").offset().top + 5121;
+      var topofDiv5 = $("#form_item5").offset().top + 4835;
       var height5 = $("#form_item5").outerHeight();
 
       $(window).scroll(function(){
@@ -367,7 +367,7 @@ $(window).on('scroll', function() {
       });
 
       //Overseeding
-      var topofDiv6 = $("#form_item6").offset().top + 5909;
+      var topofDiv6 = $("#form_item6").offset().top + 5590;
       var height6 = $("#form_item6").outerHeight();
 
       $(window).scroll(function(){
@@ -386,7 +386,7 @@ $(window).on('scroll', function() {
       });
 
       //fungicide
-      var topofDiv7 = $("#form_item7").offset().top + 7101;
+      var topofDiv7 = $("#form_item7").offset().top + 6710;
       var height7 = $("#form_item7").outerHeight();
 
       $(window).scroll(function(){
@@ -405,7 +405,7 @@ $(window).on('scroll', function() {
       });
 
       //sprinkler
-      var topofDiv8 = $("#form_item8").offset().top + 7756;
+      var topofDiv8 = $("#form_item8").offset().top + 7330;
       var height8 = $("#form_item8").outerHeight();
 
       $(window).scroll(function(){
@@ -424,7 +424,7 @@ $(window).on('scroll', function() {
       });
 
       //YCU
-      var topofDiv9 = $("#form_item9").offset().top + 11295;
+      var topofDiv9 = $("#form_item9").offset().top + 10620;
       var height9 = $("#form_item9").outerHeight();
 
       $(window).scroll(function(){
@@ -443,7 +443,7 @@ $(window).on('scroll', function() {
       });
 
       //Power Raking
-      var topofDiv10 = $("#form_item10").offset().top + 13531;
+      var topofDiv10 = $("#form_item10").offset().top + 13045;
       var height10 = $("#form_item10").outerHeight();
 
       $(window).scroll(function(){
@@ -482,7 +482,7 @@ $(window).on('scroll', function() {
       });
 
       //aeration
-      var topofDiv2 = $("#form_item2").offset().top + 991;
+      var topofDiv2 = $("#form_item2").offset().top + 980;
       var height2 = $("#form_item2").outerHeight();
 
       $(window).scroll(function(){
@@ -501,7 +501,7 @@ $(window).on('scroll', function() {
       });
 
       //fertilization
-      var topofDiv3 = $("#form_item3").offset().top + 2372;
+      var topofDiv3 = $("#form_item3").offset().top + 2295;
       var height3 = $("#form_item3").outerHeight();
 
       $(window).scroll(function(){
@@ -520,7 +520,7 @@ $(window).on('scroll', function() {
       });
 
       //Weed Control
-      var topofDiv4 = $("#form_item4").offset().top + 4631;
+      var topofDiv4 = $("#form_item4").offset().top + 4415;
       var height4 = $("#form_item4").outerHeight();
 
       $(window).scroll(function(){
@@ -539,7 +539,7 @@ $(window).on('scroll', function() {
       });
 
       //Drought Control
-      var topofDiv5 = $("#form_item5").offset().top + 6019;
+      var topofDiv5 = $("#form_item5").offset().top + 5735;
       var height5 = $("#form_item5").outerHeight();
 
       $(window).scroll(function(){
@@ -558,7 +558,7 @@ $(window).on('scroll', function() {
       });
 
       //Overseeding
-      var topofDiv6 = $("#form_item6").offset().top + 6870;
+      var topofDiv6 = $("#form_item6").offset().top + 6550;
       var height6 = $("#form_item6").outerHeight();
 
       $(window).scroll(function(){
@@ -577,7 +577,7 @@ $(window).on('scroll', function() {
       });
 
       //Fungicide
-      var topofDiv7 = $("#form_item7").offset().top + 8341;
+      var topofDiv7 = $("#form_item7").offset().top + 7950;
       var height7 = $("#form_item7").outerHeight();
 
       $(window).scroll(function(){
@@ -596,7 +596,7 @@ $(window).on('scroll', function() {
       });
 
       //Sprinkler
-      var topofDiv8 = $("#form_item8").offset().top + 9062;
+      var topofDiv8 = $("#form_item8").offset().top + 8635;
       var height8 = $("#form_item8").outerHeight();
 
       $(window).scroll(function(){
@@ -615,7 +615,7 @@ $(window).on('scroll', function() {
       });
 
       //YCU
-      var topofDiv9 = $("#form_item9").offset().top + 13099;
+      var topofDiv9 = $("#form_item9").offset().top + 12425;
       var height9 = $("#form_item9").outerHeight();
 
       $(window).scroll(function(){
@@ -634,7 +634,7 @@ $(window).on('scroll', function() {
       });
 
       //Power Raking
-      var topofDiv10 = $("#form_item10").offset().top + 16109;
+      var topofDiv10 = $("#form_item10").offset().top + 15300;
       var height10 = $("#form_item10").outerHeight();
 
       $(window).scroll(function(){
