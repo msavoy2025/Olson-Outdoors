@@ -634,7 +634,7 @@ $(window).on('scroll', function() {
       });
 
       //Power Raking
-      var topofDiv10 = $("#form_item10").offset().top + 14895;
+      var topofDiv10 = $("#form_item10").offset().top + 15025;
       var height10 = $("#form_item10").outerHeight();
 
       $(window).scroll(function(){
